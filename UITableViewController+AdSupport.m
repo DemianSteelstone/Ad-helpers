@@ -204,8 +204,6 @@ const void *BannerLoadedKey = &BannerLoadedKey;
     objc_setAssociatedObject(self, BannerLoadedKey, [NSNumber numberWithBool:NO], OBJC_ASSOCIATION_RETAIN);
     
     [self setFramesForNotLoadedBanner:view];
-    
-    [self reload:view];
 }
 
 @end
