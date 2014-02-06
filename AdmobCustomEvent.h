@@ -6,8 +6,9 @@
 //  Copyright (c) 2014 Macsoftex. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MPBannerCustomEvent.h"
+#import "GADBannerView.h"
 
-@interface AdmobCustomEvent : MPBannerCustomEvent
+@interface AdmobCustomEvent : MPBannerCustomEvent <GADBannerViewDelegate>
 
 @end

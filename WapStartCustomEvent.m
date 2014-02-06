@@ -17,7 +17,7 @@
 
 
 -(void)requestAdWithSize:(CGSize)size customEventInfo:(NSDictionary *)info
-{
+{    
     WPBannerRequestInfo *requestInfo = [[WPBannerRequestInfo alloc] initWithApplicationId:[info[@"app_id"] integerValue]];
     
     banner = [[WPBannerView alloc] initWithBannerRequestInfo:requestInfo];
